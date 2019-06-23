@@ -1,0 +1,279 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "musical instruments quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "quit",
+                        "I don't want to play now",
+                        "I am done",
+                        "good bye",
+                        "lets play some other time",
+                        "I don't want to play"
+                    ]
+                },
+                {
+                    "name": "WelcomeIntent",
+                    "slots": [],
+                    "samples": [
+                        "play musical instruments quiz",
+                        "play instrument quiz",
+                        "one more musical instrument quiz",
+                        "let me try again",
+                        "let me try one more time",
+                        "lets start again",
+                        "lets start the musical instrument quiz again",
+                        "lets play again",
+                        "I want to play again",
+                        "I want to try again",
+                        "give me one more chance"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RiddleAnswerIntent",
+                    "slots": [
+                        {
+                            "name": "riddle_answer",
+                            "type": "instrument_names",
+                            "samples": [
+                                "the name of the instrument is {riddle_answer}",
+                                "the instrument is {riddle_answer}",
+                                "the instrument name is {riddle_answer}",
+                                "{riddle_answer}",
+                                "it is {riddle_answer}",
+                                "i think it is {riddle_answer}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "{riddle_answer}",
+                        "the name of the musical instrument is {riddle_answer}",
+                        "musical instrument is {riddle_answer}",
+                        "instrument name is {riddle_answer}",
+                        "the instrument is {riddle_answer}",
+                        "the instrument name is {riddle_answer}",
+                        "my answer is {riddle_answer}",
+                        "it could be {riddle_answer}",
+                        "it's {riddle_answer}",
+                        "it is {riddle_answer}",
+                        "may be it is {riddle_answer}",
+                        "it may be {riddle_answer}",
+                        "i think it is {riddle_answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": [
+                        "I don't know"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "instrument_names",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Bassoon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cello"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clarine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cymbal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Double Bass",
+                                "synonyms": [
+                                    "bass"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Flute"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "French Horn",
+                                "synonyms": [
+                                    "horn"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Guitar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Harp"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Harpsichord"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oboe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Organ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Piano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Saxophone",
+                                "synonyms": [
+                                    "saxaphone"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Triangle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Trombone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Trumpet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tuba"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Viola"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Violin"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "RiddleAnswerIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "riddle_answer",
+                            "type": "instrument_names",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1530037572883.915178156742"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1530037572883.915178156742",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "tell me the instrument name "
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "kindly share which instrument it is"
+                    }
+                ]
+            }
+        ]
+    }
+}
