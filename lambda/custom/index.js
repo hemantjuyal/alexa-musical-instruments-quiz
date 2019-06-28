@@ -1,5 +1,5 @@
 /**
- * 
+ *
  * @author Hemant Juyal
  */
 
@@ -8,8 +8,8 @@ const Alexa = require('ask-sdk-core');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 const striptags = require('striptags');
-const BRAND_LOGO = 'https://s3-eu-west-1.amazonaws.com/smartassistants/images/logo/musical_instruments_quiz_logo.jpg';
-const BRAND_BANNER = 'https://s3-eu-west-1.amazonaws.com/smartassistants/images/logo/musical_instruments_quiz_logo.jpg';
+const BRAND_LOGO = 'https://smartassistants.s3-eu-west-1.amazonaws.com/images/logo/musical_instruments_quiz_logo.jpg';
+const BRAND_BANNER = 'https://smartassistants.s3-eu-west-1.amazonaws.com/images/logo/musical_instruments_quiz_logo.jpg';
 const riddles = require('./data/riddles');
 const riddles_hi = require('./data/riddles');
 
