@@ -11,7 +11,7 @@ const striptags = require('striptags');
 const BRAND_LOGO = 'https://smartassistants.s3-eu-west-1.amazonaws.com/images/logo/musical_instruments_quiz_logo.jpg';
 const BRAND_BANNER = 'https://smartassistants.s3-eu-west-1.amazonaws.com/images/logo/musical_instruments_quiz_logo.jpg';
 const riddles = require('./data/riddles');
-const riddles_hi = require('./data/riddles');
+const riddles_hi = require('./data/riddles_hi');
 
 const WelcomeHandler = {
   canHandle(handlerInput) {
