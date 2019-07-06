@@ -106,6 +106,8 @@
                         "instrument name is {riddle_answer}",
                         "the instrument is {riddle_answer}",
                         "the instrument name is {riddle_answer}",
+                        "the tune is {riddle_answer}",
+                        "the tune is of {riddle_answer} instrument",
                         "my answer is {riddle_answer}",
                         "it could be {riddle_answer}",
                         "it's {riddle_answer}",
@@ -126,6 +128,295 @@
                 {
                     "name": "instrument_names",
                     "values": [
+                        {
+                            "name": {
+                                "value": "Santoor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jal tarang"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ghungroo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tumbaknaer",
+                                "synonyms": [
+                                    "Tumbak",
+                                    "Tumbaknari"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dhol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bansuri"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pungi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mohan Veena"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mridangam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Harmonium"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shehnai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sarangi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sarod"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fretless bass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "clavinet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mouth organ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "farfisa organ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lap steel guitar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "slide guitar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rhodes piano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lap steel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tambourine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mellotron"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fender rhodes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "upright bass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "acoustic guitar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "melodica"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "string bass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "twelve string guitar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "wurlitzer electric piano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "glockenspiel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "baritone saxophone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "piano bass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tenor sax"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "acoustic bass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "electric piano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "electric guitar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "woodwind"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "valve trombone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "alto sax"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mandolin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "harmonica"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hammond organ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "percussion"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "electric bass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sitar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tabla"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tenor saxophone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "soprano sax"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bass saxophone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "english horn"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "contrabass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "marimba"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "flugelhorn"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "accordion"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "alto flute"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "soprano saxophone"
+                            }
+                        },
                         {
                             "name": {
                                 "value": "Bassoon"
